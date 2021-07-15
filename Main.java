@@ -45,13 +45,14 @@ public class Main
 		for(int i=0;i<array2.length;i++)
 			array2[i] = scan.nextInt();
 
+		//Exceptions being catched if any
 		try
 		{
-			Runtime.getRuntime().exec("clear");
+			Runtime.getRuntime().exec("clear");	//Clears the terminal
 		}
 		catch(Exception e)
 		{
-			System.out.println("Something is wrong!");
+			System.out.println("Something is wrong!");	//Show this message
 		}
 
 		//Add Array1 and Array2 and store it in ans
